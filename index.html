@@ -6,18 +6,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marvel</title>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="./src/css/style.css">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<link >
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="./src/css/style.css">
+    <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="topo">
-        <a href="/">
-            <img src="./src/img/logo(1).png" alt="">
-        </a>
-    </div>
+
+    <div id="topo" class="row">
+        <div class="col-sm-12" >
+                <a href="/"> <!-- AO CLICAR NA LOGO RETORNA PARA A PÁGINA INICIAL -->
+                    <img src="./src/img/logo(1).png" alt=""><!-- LOGO MENU -->
+                </a>      
+        </div>     
+    </div><!-- ROW LOGO MARVEL -->
+
+<br>
+    <div class="row">
+        <div class="col-sm-3"></div> <!-- ROW LATERAL ESQUERDA -->
+            <div  align="center" class="col-sm-6"> <!-- ROW CENTRAL -->
+                <button type="button" class="btn btn-light">HOME</button>
+                <button type="button" class="btn btn-light">SOBRE NÓS</button>
+                <button type="button" class="btn btn-light">PRODUTOS</button>
+                <button type="button" class="btn btn-light">CONTATO</button>
+            </div>
+        <div class="cool-sm-3"></div> <!-- ROW LATERAL DIREITA -->
+    </div><!-- ROW MENU -->
+<br>
+
+<div class="row"> <!-- ROW BANNER E INFORMAÇÕES -->
+    <div class="col-sm-2" id="laterais"></div> <!-- ROW LATERAL ESQUERDA-->
+    <div class="col-sm-8" id="banner"> <!-- ROW CENTRAL -->
+
+        <img  class="img-fluid" src="./src/img/banner(1).jpg" > <!-- FOTO BANNER -->
+
+        <div align="center" class="red"> <!-- TEXTO COM BACKGROUND VERMELHO -->
+            <h4>Say hey to Tempo!!</h4>
+            <p>Full Responsive HTML5 BootStrap Template</p>
+        </div>
+
+        <div align="center"> <!-- OUR SERVICES -->
+            <h5>Our Services</h5>
+            <div class="down_our_services">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos autem quaerat modi eaque at qui vel quasi ex natus? Alias, quis natus nobis sed distinctio sint tempore beatae voluptatem?</p>
+            </div> 
+        </div> <!-- /OUR SERVICES -->
+
+        <div class="row" align="center">
+            <div class="col">
+                <div>
+                    <div class="col"> <!-- ROW DESIGN -->
+                        <img src="./src/img/2x/baseline_insert_photo_black_24dp.png" alt=""> <!-- ÍCONE DE FOTO -->
+                    </div>
+                    <div class="col">
+                        <div>
+                            <h6>Design</h6>
+                        </div>
+                        <div class="texto_icone">
+                            <p>
+                                doloremque laudantium, lotam rem aperiam, esque ipsa quae ab illo inventore ventatis.
+                            </p>
+                        </div>
+                    </div><!-- /ROW DESIGN -->
+                </div>
+            </div>
+
+            <div class="col"> <!-- ROW DEVELOPMENT -->
+                <div>
+                    <div class="col">
+                        <div class="icone">
+                            <img src="./src/img/2x/baseline_code_black_24dp.png"> <!-- ÍCONE DE CÓDIGO -->
+                        </div>    
+                    </div>  
+                    <div class="col">
+                        <div>
+                            <h6>Development</h6>
+                        </div>    
+                            <div class="texto_icone">
+                                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore varitatis.
+                            </div>
+                    </div> 
+                </div>
+            </div><!-- /ROW DEVELOPMENT -->
+
+            <div class="col"> <!-- ROW MARKETING-->
+                <div class="icone">
+                    <img src="./src/img/2x/baseline_rocket_launch_black_24dp.png" alt=""> <!-- ÍCONE DE FOGUETE -->
+                </div>
+                    <div class="col">
+                        <div>
+                            <h6>Marketing</h6>
+                        </div>
+                                <div class="texto_icone">
+                                    doloremque laudantium. lotam rem aperiam, eaque ipsa quae ab illo inventore veritatis.
+                                </div>
+                </div>
+            </div> <!-- /ROW MARKETING -->    
+        </div><!-- /ROW DESIGN DEVELOPMENT MARKETING -->
+    
+        <div class="row">
+            <div class="col">
+                <div>
+                    <h4>
+                        AMENT PORRO NUMQUAM RATIONE
+                    </h4>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                teste
+            </div>
+        </div>
+    </div> <!-- COL-SM-6 -->
+    <div class="col-sm-2" id="laterais"></div> <!-- /ROW LATERAL DIREITA -->
+</div>
     
 </body>
 </html>

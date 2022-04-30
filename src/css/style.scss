@@ -1,8 +1,43 @@
 body{
-    border-top: 55px red solid;
+    border-top: 5px red solid;
 }
 #topo{
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px; 
+}
+
+#menu{
+    text-align: center;
+    align-items: center;
+}
+
+br{
+    color: black;
+}
+
+#laterais{
+    background-color: #E4E4E2;
+}
+
+#banner{
+    text-align: center absolute;
+    height: 70%;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.texto_icone{
+    font-size: 10px;
+}
+.icone{
+    
+    
+}
+
+.down_our_services{
+    font-size: 12px;
 }
