@@ -33,6 +33,11 @@ br {
   color: white;
 }
 
+#red {
+  background-color: red;
+  color: white;
+}
+
 .texto_icone {
   font-size: 10px;
 }
@@ -51,5 +56,14 @@ br {
 
 #texto02 {
   font-size: 14px;
+}
+
+#data_lacamentos {
+  padding: 5px;
+  margin-top: 59px;
+}
+
+#black {
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
