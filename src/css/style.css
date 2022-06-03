@@ -227,12 +227,25 @@ body {
 
 .dataLancamento h5 {
   font-size: 16px;
-  margin-left: 10px;
+  margin-left: 6px;
 }
 
 .dataLancamento .bordaBaixo {
   border-bottom: 1px #EEE solid;
   margin-bottom: 5px;
+}
+
+.dataLancamento .bordaBaixoAlinhado {
+  border-bottom: 1px #EEE solid;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.dataLancamento .bordaBaixoAlinhadoDireita {
+  border-bottom: 1px #EEE solid;
+  margin-bottom: 5px;
+  text-align: right;
+  margin-right: 5px;
 }
 
 #rodapeSocial {
